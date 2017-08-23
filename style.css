@@ -6,14 +6,14 @@ body {
 }
 
 #logo {
-background-image: url("file:///D:/Documents/Lore/Never%20stop%20learning/GitHub/Webpy/Images/CompanyLogo.png");
+background-image: url("D:/Documents/GitHub/ProjectW/Images/CompanyLogo.png");
   width: 164px;
   height: 78px;
   padding: 10px 32px;
 }
 
 #cover {
-  background: url("file:///D:/Documents/Lore/Never%20stop%20learning/GitHub/Webpy/Images/AmoryAmistadIndex.jpg") no-repeat bottom center;
+  background: url("D:/Documents/GitHub/ProjectW/Images/AmoryAmistadIndex.jpg") no-repeat bottom center;
   background-size: cover;
   background-attachment:scroll;
   height: 523px;
