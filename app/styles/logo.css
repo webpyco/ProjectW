@@ -1,0 +1,9 @@
+/* Logo for all the website */
+
+div.logo {
+    content:url(http://d1muf25xaso8hp.cloudfront.net/http://s3.amazonaws.com/appforest_uf/f1492740697968x718167457962408700/New_LogoBlue.png);
+    height: 93px;
+    width: 195px;
+    display: block;
+    margin: 0 auto;
+}​
