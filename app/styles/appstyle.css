@@ -1,0 +1,81 @@
+ /* Style of the app page */
+
+ body
+ 	{
+    	background-color: #ECECEC;
+      font-family: Lato;
+      font-style: normal;
+      font-variant: normal;
+	}
+
+.groupA
+	{
+    	top: 0px;
+    	right: 134;
+    	width: 1200px;
+    	height: 1128px;
+    	background-color: transparent;
+    	border: 25px white;
+    	padding: 10px;
+    	margin: auto;
+	}
+
+.groupB
+  	{
+      	top: 0px;
+      	right: 0px;
+      	width: 547px;
+      	height: 1128px;
+      	background-color: white;
+      	border: 25px white;
+      	padding: 10px;
+      	margin: auto;
+  	}
+
+.groupC
+  	{
+      	top: 0px;
+      	right: 559px;
+      	width: 643px;
+      	height: 1128px;
+      	background-color: white;
+      	border: 25px white;
+      	padding: 10px;
+      	margin: auto;
+  	}
+
+/*.appform
+    {
+    	border-width:thick 10px;
+    	border-style: solid;
+    	background-color:#fff;
+    	line-height: 2;
+    	color:#6E6A6B;
+    	font-size: 14pt;
+    	text-align:left;
+    	float: middle;
+    	border: 0px solid #969293;
+    	width:40%;
+ 		position:relative;
+ 		top:30px;
+ 		left:200px;
+    }
+
+ .appform2
+    {
+    	border-width:thick 10px;
+    	border-style: solid;
+    	background-color:#fff;
+    	line-height: 2;
+    	color:#6E6A6B;
+    	font-size: 14pt;
+    	text-align:left;
+    	float: middle;
+    	border: 0px solid #969293;
+    	width:40%;
+ 		position:relative;
+ 		top:30px;
+ 		left:200px;
+    }
+
+    */
