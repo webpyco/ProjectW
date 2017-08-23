@@ -1,0 +1,91 @@
+body {
+
+  background-color:  #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+background-image: url("file:///D:/Documents/Lore/Never%20stop%20learning/GitHub/Webpy/Images/CompanyLogo.png");
+  width: 164px;
+  height: 78px;
+  padding: 10px 32px;
+}
+
+#cover {
+  background: url("file:///D:/Documents/Lore/Never%20stop%20learning/GitHub/Webpy/Images/AmoryAmistadIndex.jpg") no-repeat bottom center;
+  background-size: cover;
+  background-attachment:scroll;
+  height: 523px;
+  position:absolute;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+}
+
+#button {
+    background-color: #0080FF; /* Blue */
+    border: solid 2px #FFF; /* White */
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#button1 {
+    background-color: #12A83B; /* Green */
+    border: solid 2px #12A83B; /* Green */
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: auto;
+}
+
+
+.navigation {
+  background-color: #0080ff;
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: lowercase;
+}
+
+.cover-content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 280px;
+  width: 70%;
+}
+
+h1 {
+  color: #FFF;
+  font-family: 'Roboto', monospace;
+  font-size: 36px;
+  line-height: 60px;
+  padding: 20px 10px;
+  text-align: center;
+}
