@@ -5,15 +5,14 @@ body {
   padding: 0;
 }
 
-#logo {
-background-image: url("D:/Documents/GitHub/ProjectW/Images/CompanyLogo.png");
+#Companylogo {
   width: 164px;
   height: 78px;
-  padding: 10px 32px;
+  padding: 0px 32px;
 }
 
 #cover {
-  background: url("D:/Documents/GitHub/ProjectW/Images/AmoryAmistadIndex.jpg") no-repeat bottom center;
+  background: url("Images/HomeBackground.png") no-repeat bottom center;
   background-size: cover;
   background-attachment:scroll;
   height: 523px;
