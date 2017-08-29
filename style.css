@@ -5,10 +5,45 @@ body {
   padding: 0;
 }
 
+.container {
+  position:relative;
+}
+
+.center{
+  position:absolute;
+  top:30%;
+  width: 100%;
+  text-align:center;
+  font-size:36px;
+}
+
+.topleft {
+  position:absolute;
+  top: 8px;
+  left: 16px;
+  font-size:18px;
+}
+
+.topright {
+  position:absolute;
+  top:8px;
+  right:16px;
+  font-size:18px;
+}
+
+.bottomleft {
+  position:absolute;
+  top:8px;
+  right:16px;
+  font-size:18px;
+}
+
 #Companylogo {
   width: 164px;
   height: 78px;
-  padding: 0px 32px;
+  position: absolute;
+  text-align: left;
+  /*padding: 32px 32px;*/
 }
 
 #cover {
@@ -22,32 +57,34 @@ body {
   z-index: -1;
 }
 
-#button {
+.button {
+
     background-color: #0080FF; /* Blue */
-    border: solid 2px #FFF; /* White */
-    color: white;
-    padding: 10px 32px;
+    border: solid 1px #FFF; /* White */
+    border-radius: 4px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-#button1 {
+.button1 {
     background-color: #12A83B; /* Green */
     border: solid 2px #12A83B; /* Green */
-    color: white;
-    padding: 10px 32px;
+    border-radius: 4px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin-right: auto;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 
 .navigation {
-  background-color: #0080ff;
   overflow-y: auto;
   position: fixed;
   left: 0;
@@ -68,7 +105,7 @@ li {
   font-size: 14px;
   font-weight: 300;
   margin: 16px 20px;
-  text-transform: lowercase;
+  text-transform:capitalize;
 }
 
 .cover-content {
@@ -82,9 +119,19 @@ li {
 
 h1 {
   color: #FFF;
-  font-family: 'Roboto', monospace;
+  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   line-height: 60px;
+  position:absolute;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+h2 {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  line-height: 60px;
   padding: 20px 10px;
-  text-align: center;
+  text-align: left;
 }
